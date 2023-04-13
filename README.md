@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+<div align="center">
+  <img src="" alt="logo-chiyu-labs-cra-stitches-radix"/>
+</div>
+<br />
+<div align="center">
+  <p>Chiyu Labs</p>
+  <p>Lab: UI Playground with Create React App, Stitches, and Radix UI</p>
+</div>
+<br />
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Table of Content
 
-## Available Scripts
+- [Live Demo](#live-demo)
+- [Why I Created this Repository ](#why-i-created-this-repository-)
+- [Front-end Tech Stack ](#front-end-tech-stack-)
+- [Version Control ](#version-control-)
+- [Contact ](#contact-)
 
-In the project directory, you can run:
+#### Live Demo
 
-### `npm start`
+- Still working on ... ✨
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Why I Created this Repository <a name="why-i-created-this-repository"></a>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Just want to see if my UI component ideas can be applied in real-world scenarios and maybe use them in my works. Plus, hope to help out whoever is in need. ✨
 
-### `npm test`
+#### Front-end Tech Stack <a name="front-end-tech-stack"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- TypeScript
+- React.js (Hooks)
+- React Router V6
+- [Stitches](https://stitches.dev/)
+- [Radix UI](https://www.radix-ui.com/)
 
-### `npm run build`
+#### Version Control <a name="version-control"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Git / Github
+- GUI: Fork
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### Contact <a name="contact"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- 📲 Chiyu (千柚)'s [Plurk](https://www.plurk.com/kyo144)
+- Can only reply in Mandarin Chinese and a little bit of English / Japanese.
