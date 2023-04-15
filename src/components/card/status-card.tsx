@@ -20,7 +20,7 @@ const StatusCard = () => {
           flexBasis: '50%',
           backgroundColor: '$primary50',
         }}>
-        <Typography variant={`h6`} weight={'medium'}>{`6`}</Typography>
+        <Typography variant={`body`} weight={'medium'}>{`6`}</Typography>
       </Box>
       <Box
         css={{
@@ -39,7 +39,7 @@ const StatusCard = () => {
             mr: 4,
           }}
         />
-        <Typography variant={`subtitle`} weight={'medium'}>{`Pending`}</Typography>
+        <Typography variant={`body`} weight={'medium'}>{`Pending`}</Typography>
       </Box>
     </Box>
   );
