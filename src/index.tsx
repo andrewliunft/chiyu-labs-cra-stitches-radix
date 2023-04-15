@@ -5,7 +5,8 @@ import AppLayout from './app/app-layout';
 import AppPage from './app/app-page';
 import AppError from './app/app-error';
 import reportWebVitals from './report-web-vitals';
-import AboutPage from './app/about/about-page';
+import ButtonsPage from './app/buttons/buttons-page';
+import CardsPage from './app/cards/cards-page';
 
 const router = createBrowserRouter([
   {
@@ -18,8 +19,12 @@ const router = createBrowserRouter([
         element: <AppPage />,
       },
       {
-        path: '/about',
-        element: <AboutPage />,
+        path: '/buttons',
+        element: <ButtonsPage />,
+      },
+      {
+        path: '/cards',
+        element: <CardsPage />,
       },
     ],
   },
