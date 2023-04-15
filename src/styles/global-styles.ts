@@ -25,6 +25,7 @@ export const globalStyles = globalCss({
     flexDirection: 'column',
   },
   a: {
+    color: 'inherit',
     textDecoration: 'none',
   },
   'ul, ol': {

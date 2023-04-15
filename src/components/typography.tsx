@@ -2,7 +2,7 @@ import { ReactNode, ComponentProps, ElementType, forwardRef } from 'react';
 import { styled } from '@styles/stitches.config';
 
 const Text = styled('span', {
-  color: '$grey900',
+  color: 'inherit',
   variants: {
     variant: {
       h1: { fontSize: '3.75rem', lineHeight: 1 },

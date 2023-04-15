@@ -84,6 +84,7 @@ export const { styled, css, globalCss, keyframes, getCssText, theme, createTheme
       5: '5px',
       6: '6px',
       10: '10px',
+      cylinder: '9999px',
       rounded: '50%',
     },
     shadows: {
