@@ -1,12 +1,12 @@
-import Box from '@components/box';
-import NavButton from '@components/button/nav-button';
-import Spacer from '@components/spacer';
-import Typography from '@components/typography';
+import { Outlet, useLocation } from 'react-router-dom';
 import { styled } from '@styles/stitches.config';
-import { Link, Outlet, useLocation } from 'react-router-dom';
+import Box from '@components/box';
+import Typography from '@components/typography';
+import Spacer from '@components/spacer';
+import NavLinkButton from '@components/button/nav-link-button';
 
 const APP_BAR_HEIGHT = 60;
-const NAV_BAR_WIDTH = 60;
+const NAV_BAR_WIDTH = 65;
 
 const AppBar = styled('div', {
   position: 'fixed',
@@ -32,10 +32,12 @@ const NavBar = styled('div', {
   zIndex: '$z99',
   borderRight: '1px solid $grey100',
   backgroundColor: '$white',
+  py: 15,
   px: 4,
 });
 
 const AppLayout = () => {
+  const location = useLocation();
   return (
     <>
       <AppBar>
@@ -47,15 +49,27 @@ const AppLayout = () => {
             {`Lab: CRA - Stitches - Radix`}
           </Typography>
         </Box>
-        <Box css={{ display: 'flex', alignItems: 'center', columnGap: 20 }}>
-          <Link to='/'>Top</Link>
-          <Link to='/about'>About</Link>
-        </Box>
+        <Box css={{ display: 'flex', alignItems: 'center', columnGap: 20 }}></Box>
       </AppBar>
       <Spacer axis={'vertical'} size={APP_BAR_HEIGHT} />
       <NavBar>
         <Spacer axis={'vertical'} size={APP_BAR_HEIGHT} />
-        <NavButton iconName='home' navName='Top' />
+        {/* TODO: Need Tooltip */}
+        <NavLinkButton to='/' iconName='home' navName='Top' title='Top' glow={location.pathname === '/'} />
+        <NavLinkButton
+          to='/buttons'
+          iconName='controller_gen'
+          navName='Buttons'
+          title='Buttons'
+          glow={location.pathname === '/buttons'}
+        />
+        <NavLinkButton
+          to='/cards'
+          iconName='tab_group'
+          navName='Cards'
+          title='Cards'
+          glow={location.pathname === '/cards'}
+        />
       </NavBar>
       <Box
         as='main'
