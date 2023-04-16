@@ -6,10 +6,10 @@ export const globalStyles = globalCss({
     boxSizing: 'border-box',
   },
   html: {
-    overflow: 'hidden',
+    // overflow: 'hidden',
   },
   body: {
-    overflow: 'auto',
+    // overflow: 'auto',
     lineHeight: 1.5,
     color: '$grey500',
     fontFamily: `'Inter', 'Noto Sans TC', sans-serif, monospace`,
