@@ -76,6 +76,11 @@ const StyledButton = styled('button', {
           borderColor: '$primary500',
           backgroundColor: '$primary500',
         },
+        '&[data-state=open]': {
+          color: '$white',
+          borderColor: '$primary500',
+          backgroundColor: '$primary500',
+        },
       },
     },
     {
@@ -106,6 +111,11 @@ const StyledButton = styled('button', {
           borderColor: '$primary100',
           backgroundColor: '$primary100',
         },
+        '&[data-state=open]': {
+          color: '$primary600',
+          borderColor: '$primary100',
+          backgroundColor: '$primary100',
+        },
       },
     },
     {
@@ -132,6 +142,11 @@ const StyledButton = styled('button', {
           backgroundColor: '$primary50',
         },
         '&:active': {
+          color: '$primary600',
+          borderColor: '$primary600',
+          backgroundColor: '$primary100',
+        },
+        '&[data-state=open]': {
           color: '$primary600',
           borderColor: '$primary600',
           backgroundColor: '$primary100',
