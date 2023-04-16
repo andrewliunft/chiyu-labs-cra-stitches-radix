@@ -29,7 +29,7 @@ export const SelectIcon = styled(RadixSelect.Icon, {});
 export const SelectPortal = styled(RadixSelect.Portal, {});
 export const SelectContent = styled(RadixSelect.Content, {
   p: 10,
-  boxShadow: '$sm',
+  boxShadow: '$md',
   borderRadius: '$4',
   backgroundColor: '$grey10',
   width: 'var(--radix-select-trigger-width)',
