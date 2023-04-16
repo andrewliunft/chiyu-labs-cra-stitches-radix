@@ -21,3 +21,14 @@ export const fruits = [
   { id: 'rJ6F5h', name: 'Cantaloupe', value: 'cantaloupe' },
   { id: 'zN3K2a', name: 'Plum', value: 'plum' },
 ];
+
+export const person = [
+  { id: 'aSDfGh', name: 'John Doe', picture: 'https://placehold.co/64x64' },
+  { id: 'JklmNo', name: 'Jane Smith', picture: 'https://placehold.co/64x64' },
+  { id: 'pQRStU', name: 'Bob Johnson', picture: 'https://placehold.co/64x64' },
+  { id: 'vWXyZa', name: 'Alice Brown', picture: 'https://placehold.co/64x64' },
+  { id: 'BCdEfG', name: 'Tom Davis', picture: 'https://placehold.co/64x64' },
+  { id: 'HiJkLm', name: 'Emily Wilson', picture: 'https://placehold.co/64x64' },
+  { id: 'noPqRs', name: 'David Lee', picture: 'https://placehold.co/64x64' },
+  { id: 'TuVwXy', name: 'Sarah Jones', picture: 'https://placehold.co/64x64' },
+];
