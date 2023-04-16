@@ -1,5 +1,4 @@
 import { ComponentProps, forwardRef } from 'react';
-import { PropertyValue, ScaleValue } from '@stitches/react';
 import { styled } from '../styles/stitches.config';
 
 const Gifs = styled('span', {
