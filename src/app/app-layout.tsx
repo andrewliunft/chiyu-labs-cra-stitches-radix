@@ -70,6 +70,13 @@ const AppLayout = () => {
           title='Cards'
           glow={location.pathname === '/cards'}
         />
+        <NavLinkButton
+          to='/selects'
+          iconName='widgets'
+          navName='Selects'
+          title='Selects'
+          glow={location.pathname === '/selects'}
+        />
       </NavBar>
       <Box
         as='main'
