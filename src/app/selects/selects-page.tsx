@@ -15,33 +15,36 @@ import {
   SelectViewport,
 } from '@components/input/select';
 import { fruits } from '@store/mock-data';
+import SelectWithCombobox from '@components/input/select-with-combobox';
 
 const SELECT_WIDTH = 250;
 const SELECT_CONTENT_MAX_HEIGHT = 280;
 
 const SelectsPage = () => {
-  const [fruit, setFruit] = useState<string | undefined>();
-  const [open, setOpen] = useState(false);
+  const [open1, setOpen1] = useState(false);
+  const [open2, setOpen2] = useState(false);
+  const [fruit1, setFruit1] = useState<string | undefined>();
+  const [fruit2, setFruit2] = useState<string | undefined>();
 
   return (
     <Box id='selects-container' css={{ flexGrow: 1 }}>
       {/* Page Title */}
-      <Box css={{ display: 'flex', alignItems: 'center', columnGap: 10, color: '$grey400' }}>
+      <Box css={{ display: 'flex', alignItems: 'center', columnGap: 10, color: '$grey50' }}>
         <Icon fill iconName='widgets' css={{ fontSize: 18 }} />
         <Typography variant='subtitle' weight={'medium'}>{`Selects`}</Typography>
       </Box>
       <Spacer axis={'vertical'} size={15} />
       <Box css={{ width: SELECT_WIDTH, overflow: 'hidden' }}>
         <SelectRoot
-          open={open}
-          onOpenChange={(open) => setOpen(open)}
-          value={fruit}
-          onValueChange={(value) => setFruit(value)}>
+          open={open1}
+          onOpenChange={(open) => setOpen1(open)}
+          value={fruit1}
+          onValueChange={(value) => setFruit1(value)}>
           <SelectTrigger>
             <Box css={{ overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
-              <SelectValue placeholder='Select a fruit' />
+              <SelectValue placeholder='Select a fruit 1' />
             </Box>
-            <SelectIcon css={{ ml: 'auto', display: 'block', color: '$grey400' }}>
+            <SelectIcon css={{ ml: 'auto', display: 'block', color: '$grey50' }}>
               <Icon iconName='arrow_drop_down' />
             </SelectIcon>
           </SelectTrigger>
@@ -57,6 +60,16 @@ const SelectsPage = () => {
             </SelectContent>
           </SelectPortal>
         </SelectRoot>
+      </Box>
+      <Spacer axis={'vertical'} size={15} />
+      <Box css={{ width: SELECT_WIDTH }}>
+        <SelectWithCombobox
+          open={open2}
+          onOpenChange={(open) => setOpen2(true)}
+          value={fruit2}
+          onValueChange={(value) => setFruit2(value)}
+          options={fruits}
+        />
       </Box>
     </Box>
   );
