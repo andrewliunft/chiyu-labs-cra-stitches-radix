@@ -35,7 +35,7 @@ const AppBar = styled('div', {
   justifyContent: 'space-between',
   px: 30,
   height: APP_BAR_HEIGHT,
-  borderBottom: '1px solid $grey100',
+  borderBottom: '1px solid $grey10',
   backgroundColor: '$white',
 });
 const NavBar = styled('div', {
@@ -45,7 +45,7 @@ const NavBar = styled('div', {
   bottom: 0,
   width: NAV_BAR_WIDTH,
   zIndex: '$z99',
-  borderRight: '1px solid $grey100',
+  borderRight: '1px solid $grey10',
   backgroundColor: '$white',
   py: 15,
   px: 4,
@@ -58,11 +58,11 @@ const AppLayout = () => {
       <AppBar>
         <Box css={{ display: 'flex', alignItems: 'center', columnGap: 20 }}>
           {/* Title */}
-          <Typography weight={'bold'} variant={'h6'} css={{ color: '$grey500' }}>
+          <Typography weight={'bold'} variant={'h6'} css={{ color: '$grey60' }}>
             {`Chiyu Labs`}
           </Typography>
           {/* Description */}
-          <Typography weight={'medium'} variant={'caption'} css={{ color: '$grey300' }}>
+          <Typography weight={'medium'} variant={'caption'} css={{ color: '$grey30' }}>
             {`Lab: CRA - Stitches - Radix`}
           </Typography>
         </Box>
@@ -74,7 +74,7 @@ const AppLayout = () => {
             </PopoverTrigger>
             <PopoverPortal>
               <PopoverContent sideOffset={4} align='center' css={{ height: `calc(100vh - 200px)` }}>
-                <Box css={{ height: NOTIFICATION_HEADER_HEIGHT, borderBottom: '1px solid $grey100' }}></Box>
+                <Box css={{ height: NOTIFICATION_HEADER_HEIGHT, borderBottom: '1px solid $grey10' }}></Box>
                 <ScrollAreaRoot css={{ px: 10, pt: 10, height: `calc(100% - ${NOTIFICATION_HEADER_HEIGHT}px)` }}>
                   <ScrollAreaViewport>
                     {fruits.map((fruit, index) => (
@@ -158,7 +158,7 @@ const AppLayout = () => {
           flexGrow: 1,
           display: 'flex',
           flexDirection: 'column',
-          backgroundColor: '$white',
+          backgroundColor: '$grey5',
         }}>
         <Outlet />
       </Box>

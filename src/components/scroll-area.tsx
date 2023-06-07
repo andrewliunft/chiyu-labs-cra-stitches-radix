@@ -20,7 +20,7 @@ export const ScrollAreaScrollbar = styled(RadixScrollArea.Scrollbar, {
   // disable browser handling of all panning and zooming gestures on touch devices
   touchAction: 'none',
   padding: 0,
-  backgroundColor: '$grey30',
+  backgroundColor: '$grey10',
   transition: '$colors',
   '&:hover': { background: '$grey50' },
   '&[data-orientation="vertical"]': { width: SCROLLBAR_SIZE },
@@ -31,7 +31,7 @@ export const ScrollAreaScrollbar = styled(RadixScrollArea.Scrollbar, {
 });
 export const ScrollAreaThumb = styled(RadixScrollArea.Thumb, {
   flex: 1,
-  background: '$grey100',
+  background: '$grey20',
   borderRadius: SCROLLBAR_SIZE,
   // increase target size for touch devices https://www.w3.org/WAI/WCAG21/Understanding/target-size.html
   position: 'relative',
@@ -48,5 +48,5 @@ export const ScrollAreaThumb = styled(RadixScrollArea.Thumb, {
   },
 });
 export const ScrollAreaCorner = styled(RadixScrollArea.Corner, {
-  background: '$grey100',
+  background: '$grey10',
 });

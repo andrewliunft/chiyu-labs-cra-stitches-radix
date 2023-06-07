@@ -14,7 +14,7 @@ const AvatarRoot = styled(RadixAvatar.Root, {
   width: 45,
   height: 45,
   borderRadius: '$rounded',
-  backgroundColor: '$grey300',
+  backgroundColor: '$grey30',
 });
 const AvatarImage = styled(RadixAvatar.Image, {
   width: '100%',
@@ -28,7 +28,7 @@ const AvatarFallback = styled(RadixAvatar.Fallback, {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  backgroundColor: '$grey500',
+  backgroundColor: '$grey50',
   color: '$white',
 });
 

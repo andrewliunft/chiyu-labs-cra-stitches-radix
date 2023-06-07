@@ -18,21 +18,21 @@ const StatusCard = () => {
           alignItems: 'center',
           justifyContent: 'center',
           flexBasis: '50%',
-          backgroundColor: '$primary50',
+          backgroundColor: '$primary10',
         }}>
         <Typography variant={`body`} weight={'medium'}>{`6`}</Typography>
       </Box>
       <Box
         css={{
           flexBasis: '50%',
-          backgroundColor: '$primary200',
+          backgroundColor: '$primary30',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
         }}>
         <Box
           css={{
-            backgroundColor: '$primary700',
+            backgroundColor: '$primary70',
             width: 8,
             height: 8,
             borderRadius: '$rounded',

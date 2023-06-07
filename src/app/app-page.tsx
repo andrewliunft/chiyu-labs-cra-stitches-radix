@@ -9,7 +9,7 @@ const App = () => {
   return (
     <Box id='app-container' css={{ flexGrow: 1 }}>
       {/* Page Title */}
-      <Box css={{ display: 'flex', alignItems: 'center', columnGap: 10, color: '$grey400' }}>
+      <Box css={{ display: 'flex', alignItems: 'center', columnGap: 10, color: '$grey50' }}>
         <Icon fill iconName='home' css={{ fontSize: 18 }} />
         <Typography variant='subtitle' weight={'medium'}>{`Home`}</Typography>
       </Box>

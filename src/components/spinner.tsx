@@ -6,7 +6,7 @@ const Loader = styled('div', {
   border: '5px solid #FFF',
   borderWidth: '1.2px',
   borderStyle: 'solid',
-  borderBottomColor: '$grey300',
+  borderBottomColor: '$grey30',
   borderRadius: '$rounded',
   display: 'inline-block',
   animation: `${rotation} 1s linear infinite`,

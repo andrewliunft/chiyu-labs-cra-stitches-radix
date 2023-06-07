@@ -11,7 +11,7 @@ export const globalStyles = globalCss({
   body: {
     // overflow: 'auto',
     lineHeight: 1.5,
-    color: '$grey500',
+    color: '$grey90',
     fontFamily: `'Inter', 'Noto Sans TC', sans-serif, monospace`,
     '-webkit-font-smoothing': 'antialiased',
   },

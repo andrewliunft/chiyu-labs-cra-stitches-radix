@@ -8,7 +8,7 @@ const ButtonsPage = () => {
   return (
     <Box id='buttons-container' css={{ flexGrow: 1 }}>
       {/* Page Title */}
-      <Box css={{ display: 'flex', alignItems: 'center', columnGap: 10, color: '$grey400' }}>
+      <Box css={{ display: 'flex', alignItems: 'center', columnGap: 10, color: '$grey50' }}>
         <Icon fill iconName='controller_gen' css={{ fontSize: 18 }} />
         <Typography variant='subtitle' weight={'medium'}>{`Buttons`}</Typography>
       </Box>

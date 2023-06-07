@@ -6,7 +6,7 @@ import Typography from '@components/typography';
 const StyledBox = styled('div', {
   borderRadius: '$4',
   height: 80,
-  border: '1px solid $grey300',
+  border: '1px solid $grey30',
 });
 
 interface NotificationCardProps extends ComponentProps<typeof StyledBox> {

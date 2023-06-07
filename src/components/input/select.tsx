@@ -13,14 +13,15 @@ export const SelectTrigger = styled(RadixSelect.Trigger, {
   width: '100%',
   borderWidth: '1px',
   borderStyle: 'solid',
-  borderColor: '$grey200',
+  borderColor: '$grey30',
   borderRadius: '$4',
+  backgroundColor: '$white',
   cursor: 'pointer',
   transition: '$colors',
   outline: 'none',
   '&[data-state=open]': {
     borderWidth: 2,
-    borderColor: '$grey300',
+    borderColor: '$grey40',
   },
 });
 // * SelectValue will render the chosen SelectItemText
@@ -31,7 +32,7 @@ export const SelectContent = styled(RadixSelect.Content, {
   p: 10,
   boxShadow: '$md',
   borderRadius: '$4',
-  backgroundColor: '$grey10',
+  backgroundColor: '$white',
   width: 'var(--radix-select-trigger-width)',
   // maxHeight: 'var(--radix-select-content-available-height)',
 });
@@ -47,12 +48,12 @@ export const SelectItem = styled(RadixSelect.Item, {
   display: 'flex',
   alignItems: 'center',
   '&[data-state=checked]': {
-    backgroundColor: '$primary200',
+    backgroundColor: '$primary20',
   },
   '&[data-state=unchecked]': {
     '&[data-highlighted]': {
       outline: 'none',
-      backgroundColor: '$primary100',
+      backgroundColor: '$primary10',
     },
   },
 });

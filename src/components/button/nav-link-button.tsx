@@ -10,6 +10,7 @@ const StyledLink = styled(Link, {
   cursor: 'pointer',
   borderRadius: '$4',
   border: '1px solid $white',
+  color: '$grey60',
   mx: 'auto',
   p: 5,
   mb: 20,
@@ -19,17 +20,17 @@ const StyledLink = styled(Link, {
   variants: {
     glow: {
       true: {
-        backgroundColor: '$secondary100',
-        border: '1px solid secondary100',
+        backgroundColor: '$secondary20',
+        border: '1px solid secondary20',
       },
       false: {
         '&:hover': {
-          border: '1px solid $secondary50',
-          backgroundColor: '$secondary50',
+          border: '1px solid $secondary10',
+          backgroundColor: '$secondary10',
         },
         '&:active': {
-          border: '1px solid $secondary100',
-          backgroundColor: '$secondary100',
+          border: '1px solid $secondary20',
+          backgroundColor: '$secondary20',
         },
       },
     },

@@ -41,23 +41,23 @@ const StyledButton = styled('button', {
       color: 'primary',
       css: {
         borderStyle: 'solid',
-        color: '$primary500',
-        borderColor: '$primary500',
+        color: '$primary60',
+        borderColor: '$primary60',
         backgroundColor: '$white',
         '&:hover': {
-          color: '$primary400',
-          borderColor: '$primary400',
-          backgroundColor: '$primary50',
+          color: '$primary50',
+          borderColor: '$primary50',
+          backgroundColor: '$primary10',
         },
         '&:active': {
-          color: '$primary600',
-          borderColor: '$primary600',
-          backgroundColor: '$primary100',
+          color: '$primary70',
+          borderColor: '$primary70',
+          backgroundColor: '$primary20',
         },
         '&[data-state=open]': {
-          color: '$primary600',
-          borderColor: '$primary600',
-          backgroundColor: '$primary100',
+          color: '$primary70',
+          borderColor: '$primary70',
+          backgroundColor: '$primary20',
         },
       },
     },
@@ -77,7 +77,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(({ children, ...restPr
   return (
     <StyledButton ref={ref} {...restProps}>
       {children}
-      {/* <Spinner size={16} color={'$primary600'} /> */}
+      {/* <Spinner size={16} color={'$primary60'} /> */}
     </StyledButton>
   );
 });
